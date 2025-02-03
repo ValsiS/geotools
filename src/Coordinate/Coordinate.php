@@ -92,7 +92,7 @@ class Coordinate implements CoordinateInterface, \JsonSerializable
      */
     public function normalizeLongitude($longitude)
     {
-        if (180 === $longitude % 360) {
+        if (180 === (int)$longitude % 360) {
             return 180.0;
         }
 
@@ -259,7 +259,7 @@ class Coordinate implements CoordinateInterface, \JsonSerializable
     /**
      * {@inheritDoc}
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return [$this->latitude, $this->longitude];
     }

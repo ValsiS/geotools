@@ -7,3 +7,7 @@
 /coverage/*
 /phpunit.xml
 /.phpunit.result.cache
+
+
+#IntelliJ/PhpStorm
+.idea

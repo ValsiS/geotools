@@ -1,29 +1,28 @@
 {
-    "name": "laravie/geotools",
+    "name": "valsis/geotools",
     "type": "library",
     "description": "Geo-related tools PHP 7+ library",
     "keywords": ["geotools", "geometry", "geoip", "bounds", "distance", "geohash", "latlong", "latitude", "longitude"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravie/geotools/issues",
-        "source": "https://github.com/laravie/geotools"
+        "issues": "https://github.com/valsis/geotools/issues",
+        "source": "https://github.com/valsis/geotools"
     },
     "authors": [
         {
-            "name": "Antoine Corcy",
-            "email": "contact@sbin.dk",
-            "homepage": "http://sbin.dk",
+            "name": "Valentin Cristian",
+            "email": "valsis@icloud.com",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "League\\Geotools\\": "src"
+            "ValsiS\\Geotools\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Geotools\\Tests\\": "tests"
+            "ValsiS\\Geotools\\Tests\\": "tests"
         }
     },
     "require": {
@@ -34,7 +33,7 @@
         "willdurand/geocoder": "^4.0"
     },
     "conflict": {
-        "league/geotools": "*"
+        "valsis/geotools": "*"
     },
     "replace": {
         "toin0u/geotools": "*"
