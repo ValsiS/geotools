@@ -16,7 +16,7 @@
     "license": "MIT",
     "support": {
       "issues": "https://github.com/valsis/geotools/issues",
-      "source": "https://github.com/valsis/geotools"
+      "source": "https://github.com/ValsiS/geotools"
     },
     "authors": [
       {
@@ -27,16 +27,16 @@
     ],
     "autoload": {
       "psr-4": {
-        "ValsiS\\Geotools\\": "src"
+        "League\\Geotools\\": "src"
       }
     },
     "autoload-dev": {
       "psr-4": {
-        "ValsiS\\Geotools\\Tests\\": "tests"
+        "League\\Geotools\\Tests\\": "tests"
       }
     },
     "require": {
-      "php": "^8.2"
+      "php": "^8.3"
     },
     "require-dev": {
       "phpunit/phpunit": "^10.0",
